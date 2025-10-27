@@ -20,15 +20,15 @@ After creating the repository, GitHub will show you commands. Use these:
 ```bash
 cd "/Users/ryanbartell/Downloads/trillium-homepage"
 
-# Add GitHub as remote repository
-git remote add origin https://github.com/YOURUSERNAME/trillium-homepage.git
+# Add GitHub as remote repository (ALREADY DONE!)
+git remote add origin https://github.com/Btizzy/trillium-homepage.git
 
 # Push your code to GitHub
 git branch -M main
 git push -u origin main
 ```
 
-**Replace `YOURUSERNAME` with your actual GitHub username!**
+**Your GitHub username: Btizzy** ✅
 
 ### 3. Enable GitHub Pages (Free Hosting)
 
@@ -39,7 +39,7 @@ git push -u origin main
 5. **Branch**: Select "main" and "/ (root)"
 6. **Click "Save"**
 
-🎉 **Your site will be live at**: `https://yourusername.github.io/trillium-homepage`
+🎉 **Your site will be live at**: `https://btizzy.github.io/trillium-homepage`
 
 ### 4. Alternative Commands (if needed)
 
@@ -53,7 +53,7 @@ git status
 git remote -v
 
 # If you need to reconfigure
-git remote set-url origin https://github.com/YOURUSERNAME/trillium-homepage.git
+git remote set-url origin https://github.com/Btizzy/trillium-homepage.git
 ```
 
 ## 📁 What's Included in Your Repository
