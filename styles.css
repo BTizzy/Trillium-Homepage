@@ -1953,6 +1953,16 @@ ul {
     font-weight: 600;
 }
 
+.startup-hero .landing-title {
+    color: white;
+    text-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.startup-hero .landing-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
 .startup-description {
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
