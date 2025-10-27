@@ -144,7 +144,7 @@ h4, h5 {
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: var(--spacing-md) !important;
+    margin-bottom: var(--spacing-sm) !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -710,7 +710,7 @@ ul {
 .hero-subtitle {
     font-size: clamp(1.1rem, 2.5vw, 1.4rem);
     color: rgba(255, 255, 255, 0.85);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     font-weight: 400;
     letter-spacing: 0.02em;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -726,7 +726,7 @@ ul {
     align-items: center;
     gap: var(--spacing-md);
     justify-content: center;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
