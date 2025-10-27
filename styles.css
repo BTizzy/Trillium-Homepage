@@ -135,7 +135,7 @@ h4, h5 {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 8vw, 5.5rem) !important;
+    font-size: clamp(2.25rem, 5vw, 3.5rem) !important;
     font-weight: 900 !important;
     line-height: 1.1 !important;
     letter-spacing: -0.03em !important;
@@ -144,7 +144,7 @@ h4, h5 {
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: var(--spacing-xl) !important;
+    margin-bottom: var(--spacing-md) !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -484,6 +484,26 @@ ul {
     color: var(--color-black);
     box-shadow: var(--shadow-gold);
     font-weight: 700;
+    width: 100%;
+    padding: 18px 32px;
+    font-size: 1.1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-primary:hover::before {
+    left: 100%;
 }
 
 .btn-primary:hover {
@@ -497,6 +517,8 @@ ul {
     color: var(--color-white);
     border: 2px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
+    width: 100%;
+    font-size: 1rem;
 }
 
 .btn-secondary:hover {
@@ -686,9 +708,9 @@ ul {
 }
 
 .hero-subtitle {
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
     color: rgba(255, 255, 255, 0.85);
-    margin-bottom: var(--spacing-2xl);
+    margin-bottom: var(--spacing-lg);
     font-weight: 400;
     letter-spacing: 0.02em;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -700,10 +722,14 @@ ul {
 
 .hero-cta {
     display: flex;
-    gap: var(--spacing-lg);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
     justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .scroll-indicator {
