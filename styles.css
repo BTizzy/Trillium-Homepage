@@ -1943,13 +1943,13 @@ ul {
    =============================== */
 
 .startup-hero {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    background: var(--gradient-primary);
     min-height: 80vh;
 }
 
 .startup-badge {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: var(--gradient-gold);
+    color: var(--color-black);
     font-weight: 600;
 }
 
@@ -1976,7 +1976,7 @@ ul {
 .startup-shape {
     position: absolute;
     border-radius: 50%;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.3) 0%, rgba(255, 215, 0, 0.2) 100%);
     animation: floatStartup 6s ease-in-out infinite;
 }
 
@@ -2050,13 +2050,13 @@ ul {
     box-shadow: var(--shadow-soft);
     text-align: center;
     transition: all 0.3s ease;
-    border: 1px solid rgba(102, 126, 234, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.1);
 }
 
 .startup-service-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-medium);
-    border-color: rgba(102, 126, 234, 0.3);
+    border-color: rgba(212, 175, 55, 0.3);
 }
 
 .startup-service-icon {
@@ -2066,9 +2066,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
     border-radius: 50%;
-    color: #667eea;
+    color: var(--color-gold);
 }
 
 .startup-service-card h3 {
@@ -2084,7 +2084,7 @@ ul {
 }
 
 .startup-expertise {
-    background: linear-gradient(135deg, #f8f9ff 0%, #e6f0ff 100%);
+    background: linear-gradient(135deg, #fffdf7 0%, #f9f6e8 100%);
     padding: var(--spacing-2xl) 0;
 }
 
@@ -2120,9 +2120,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--gradient-gold);
     border-radius: 50%;
-    color: white;
+    color: var(--color-black);
     flex-shrink: 0;
 }
 
@@ -2154,8 +2154,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: var(--gradient-gold);
+    color: var(--color-black);
     font-size: 2rem;
     font-weight: 900;
     border-radius: 50%;
@@ -2175,7 +2175,7 @@ ul {
 }
 
 .startup-cta {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    background: var(--gradient-primary);
     padding: var(--spacing-3xl) 0;
     text-align: center;
     color: white;
@@ -2211,14 +2211,14 @@ ul {
 }
 
 .email-link {
-    color: #667eea;
+    color: var(--color-gold);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
 .email-link:hover {
-    color: #764ba2;
+    color: #ffd700;
     text-decoration: underline;
 }
 
@@ -2236,7 +2236,7 @@ ul {
 }
 
 .guarantee-icon {
-    color: #667eea;
+    color: var(--color-gold);
     flex-shrink: 0;
 }
 
